@@ -1,0 +1,200 @@
+body {
+    background-image: url(Lion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homepagetitle {
+    text-align: center;
+    color: aliceblue;
+    background-color: grey;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#navbar {
+    margin: 100px;
+    text-align: center;
+}
+
+#navbarlist {
+    display: inline;
+}
+
+.listitem {
+    display: inline;
+    margin: 30px;
+    text-decoration: underline;
+    color: brown;
+    text-decoration-style: none;
+}
+
+#imagesintro {
+    text-align: center;
+    background-color: grey;
+    color: honeydew;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#firstparagraph {
+    color: white;
+}
+
+#secondparagraph {
+    color: whitesmoke;
+}
+
+#imagescontainer {
+    display: flex;
+    flex-wrap: wrap;
+    border: 15px solid lightgrey;
+    justify-content: center;
+    margin: 35px;
+    justify-content: space-around;
+}
+
+#bodybackground{
+    background-image: url(Lion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.MembersDescription {
+    color: white;
+}
+
+#JadeImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.NameTitle {
+    text-align: center;
+    color: aliceblue;
+    background-color: grey;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#HibaImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#SamerImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#MiaImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#AliImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+#bodybackground1 {
+    background-image: url(Lion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#MissionTitle {
+    text-align: center;
+    color: aliceblue;
+    background-color: grey;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#DCMSizmekLogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.ClientsList {
+    color: whitesmoke;
+}
+
+.ClientsLogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#GSKLogo {
+    position: relative;
+    top: 150px;
+    box-shadow: 5px 5px grey;
+    animation: ImagesFade 5s 1 linear;
+}
+
+.ClientLogoImage {
+    box-shadow: 5px 5px grey;
+    animation: ImagesFade 5s 1 linear;
+}
+
+#DCMLogoImage {
+    box-shadow: 5px 5px grey;
+    animation: ImagesSize 2s 1 linear;
+}
+
+#SizmekLogoImage {
+    box-shadow: 5px 5px grey;
+    animation: ImagesSize 2s 1 linear;
+}
+
+#backgroundimage2 {
+    background-image: url(Lion.jpg);
+}
+
+#ContactInfoImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 5px 5px grey;
+}
+
+.EmailsList {
+    color: honeydew;
+}
+
+@keyframes ImagesFade {
+    0% {opacity: 0;}
+    25% {opacity: 0.25;}
+    50% {opacity: 0.5;}
+    75% {opacity: 0.75;}
+    100% {opacity:1;}
+}
+
+.MemberImage {
+    animation: ImagesFade 5s 1 linear;
+}
+
+@keyframes ImagesRotation {
+    0% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.MemberImageAbout {
+    animation: ImagesRotation 2s 1 ease-in-out;
+}
+
+#ContactInfoImage {
+    animation: ImagesFade 5s 1 linear;
+}
+
+@keyframes ImagesSize {
+    0% {transform: scale(1.5);}
+    100% {transform: scale(0.5);}
+}
+
